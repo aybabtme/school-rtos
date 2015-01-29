@@ -1,0 +1,781 @@
+Archive member included because of file (symbol)
+
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                              ./main.o (xSerialPort)
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+                              ./main.o (xPortGetFreeHeapSize)
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o) (vTaskSuspendAll)
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (pxPortInitialiseStack)
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o) (system_tick)
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o) (__system_time)
+/Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (vListInitialise)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o) (__udivmodsi4)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+                              ./main.o (__prologue_saves__)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o) (__epilogue_restores__)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+                              /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o (exit)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strlen_P.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o) (strlen_P)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memset.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (memset)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o) (vsnprintf)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+                              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o) (vsnprintf_P)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+                              /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o) (vfprintf)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen_P.o)
+                              /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o) (strnlen_P)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen.o)
+                              /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o) (strnlen)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+                              /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o) (fputc)
+/opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa_invert.o)
+                              /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+xSerialPort         0x20              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+xSerial1Port        0x20              /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+__system_time       0x4               /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+LOAD ./main.o
+LOAD /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a
+LOAD /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a
+LOAD /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a
+LOAD /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a
+LOAD /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a
+LOAD /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3a0e
+ *(.vectors)
+ .vectors       0x00000000       0xe4 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x000000e4      0x147 ./main.o
+                0x0000022c                . = ALIGN (0x2)
+ *fill*         0x0000022b        0x1 00
+                0x0000022c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000022c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000022c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ .lowtext       0x0000022c       0x10 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ *(.lowtext*)
+                0x0000023c                __ctors_start = .
+ *(.ctors)
+                0x0000023c                __ctors_end = .
+                0x0000023c                __dtors_start = .
+ *(.dtors)
+                0x0000023c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000023c        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x0000023c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000023c       0x10 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000024c       0x1c /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x0000024c                __do_copy_data
+ .init4         0x00000268       0x10 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+                0x00000268                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000278        0x8 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x00000280        0x4 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000280                __vector_38
+                0x00000280                __vector_22
+                0x00000280                __vector_28
+                0x00000280                __vector_1
+                0x00000280                __vector_34
+                0x00000280                __vector_24
+                0x00000280                __vector_12
+                0x00000280                __vector_55
+                0x00000280                __vector_46
+                0x00000280                __bad_interrupt
+                0x00000280                __vector_6
+                0x00000280                __vector_31
+                0x00000280                __vector_35
+                0x00000280                __vector_39
+                0x00000280                __vector_3
+                0x00000280                __vector_23
+                0x00000280                __vector_30
+                0x00000280                __vector_45
+                0x00000280                __vector_11
+                0x00000280                __vector_54
+                0x00000280                __vector_13
+                0x00000280                __vector_17
+                0x00000280                __vector_19
+                0x00000280                __vector_56
+                0x00000280                __vector_7
+                0x00000280                __vector_49
+                0x00000280                __vector_41
+                0x00000280                __vector_43
+                0x00000280                __vector_27
+                0x00000280                __vector_5
+                0x00000280                __vector_33
+                0x00000280                __vector_47
+                0x00000280                __vector_52
+                0x00000280                __vector_4
+                0x00000280                __vector_44
+                0x00000280                __vector_51
+                0x00000280                __vector_9
+                0x00000280                __vector_2
+                0x00000280                __vector_21
+                0x00000280                __vector_15
+                0x00000280                __vector_29
+                0x00000280                __vector_40
+                0x00000280                __vector_8
+                0x00000280                __vector_48
+                0x00000280                __vector_14
+                0x00000280                __vector_53
+                0x00000280                __vector_10
+                0x00000280                __vector_50
+                0x00000280                __vector_16
+                0x00000280                __vector_18
+                0x00000280                __vector_20
+                0x00000280                __vector_42
+ .text          0x00000284        0x0 ./main.o
+ .text          0x00000284        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+ .text          0x00000284        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .text          0x00000284        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .text          0x00000284        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .text          0x00000284       0x38 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+                0x00000284                system_tick
+ .text          0x000002bc        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+ .text          0x000002bc        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+ .text          0x000002bc        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+ .text          0x000002bc        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .text          0x000002bc        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+ .text          0x000002bc        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .text          0x000002bc        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .text          0x000002bc       0x12 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strlen_P.o)
+                0x000002bc                strlen_P
+ .text          0x000002ce        0xe /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memset.o)
+                0x000002ce                memset
+ .text          0x000002dc       0x54 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+                0x000002dc                vsnprintf
+ .text          0x00000330       0x54 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+                0x00000330                vsnprintf_P
+ .text          0x00000384      0x3ba /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+                0x00000384                vfprintf
+ .text          0x0000073e       0x16 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen_P.o)
+                0x0000073e                strnlen_P
+ .text          0x00000754       0x16 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen.o)
+                0x00000754                strnlen
+ .text          0x0000076a       0x58 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+                0x0000076a                fputc
+ .text          0x000007c2       0xbc /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa_invert.o)
+                0x000007c2                __ultoa_invert
+                0x0000087e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.vApplicationStackOverflowHook
+                0x0000087e        0x6 ./main.o
+                0x0000087e                vApplicationStackOverflowHook
+ .text.enableBlue
+                0x00000884       0x1c ./main.o
+ .text.enableGreen
+                0x000008a0       0x1c ./main.o
+ .text.enableRed
+                0x000008bc       0x2c ./main.o
+ .text.main     0x000008e8       0xd2 ./main.o
+                0x000008e8                main
+ .text.TaskBlinkBlueLED
+                0x000009ba       0x70 ./main.o
+ .text.TaskBlinkGreenLED
+                0x00000a2a       0x70 ./main.o
+ .text.TaskBlinkRedLED
+                0x00000a9a       0x78 ./main.o
+ .text.xSerialFlush
+                0x00000b12       0x4e /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000b12                xSerialFlush
+ .text.xSerialAvailableChar
+                0x00000b60       0x14 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000b60                xSerialAvailableChar
+ .text.xSerialGetChar
+                0x00000b74       0x62 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000b74                xSerialGetChar
+ .text.xSerialPutChar
+                0x00000bd6       0xd0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000bd6                xSerialPutChar
+ .text.avrSerialWrite
+                0x00000ca6       0x20 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000ca6                avrSerialWrite
+ .text.avrSerialRead
+                0x00000cc6       0x2a /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000cc6                avrSerialRead
+ .text.avrSerialCheckRxComplete
+                0x00000cf0        0x8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000cf0                avrSerialCheckRxComplete
+ .text.avrSerialCheckTxReady
+                0x00000cf8        0x8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000cf8                avrSerialCheckTxReady
+ .text.avrSerialxWrite
+                0x00000d00       0x42 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000d00                avrSerialxWrite
+ .text.avrSerialxRead
+                0x00000d42       0x54 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000d42                avrSerialxRead
+ .text.avrSerialxCheckRxComplete
+                0x00000d96       0x24 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000d96                avrSerialxCheckRxComplete
+ .text.avrSerialxCheckTxReady
+                0x00000dba       0x24 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000dba                avrSerialxCheckTxReady
+ .text.__vector_25
+                0x00000dde       0xa8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000dde                __vector_25
+ .text.__vector_26
+                0x00000e86       0x94 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000e86                __vector_26
+ .text.__vector_36
+                0x00000f1a       0xa8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000f1a                __vector_36
+ .text.__vector_37
+                0x00000fc2       0x94 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00000fc2                __vector_37
+ .text.avrSerialxPrint_P
+                0x00001056       0x76 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001056                avrSerialxPrint_P
+ .text.avrSerialPrint_P
+                0x000010cc       0x48 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000010cc                avrSerialPrint_P
+ .text.xSerialxPrint_P
+                0x00001114      0x106 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001114                xSerialxPrint_P
+ .text.xSerialPrint_P
+                0x0000121a      0x108 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x0000121a                xSerialPrint_P
+ .text.avrSerialxPrint
+                0x00001322       0x6e /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001322                avrSerialxPrint
+ .text.avrSerialPrint
+                0x00001390       0x46 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001390                avrSerialPrint
+ .text.xSerialxPrint
+                0x000013d6      0x10a /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000013d6                xSerialxPrint
+ .text.xSerialPrint
+                0x000014e0      0x104 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000014e0                xSerialPrint
+ .text.avrSerialxPrintf_P
+                0x000015e4       0x78 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000015e4                avrSerialxPrintf_P
+ .text.avrSerialPrintf_P
+                0x0000165c       0x6e /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x0000165c                avrSerialPrintf_P
+ .text.avrSerialxPrintf
+                0x000016ca       0x78 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000016ca                avrSerialxPrintf
+ .text.avrSerialPrintf
+                0x00001742       0x6e /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001742                avrSerialPrintf
+ .text.vSerialClose
+                0x000017b0       0x74 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000017b0                vSerialClose
+ .text.xSerialPortInitMinimal
+                0x00001824      0x18a /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001824                xSerialPortInitMinimal
+ .text.xSerialxPrintf_P
+                0x000019ae       0x68 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x000019ae                xSerialxPrintf_P
+ .text.xSerialxPrintf
+                0x00001a16       0x68 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001a16                xSerialxPrintf
+ .text.xSerialPrintf_P
+                0x00001a7e       0x76 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001a7e                xSerialPrintf_P
+ .text.xSerialPrintf
+                0x00001af4       0x76 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00001af4                xSerialPrintf
+ .text.hot      0x00001b6a      0x2f8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+                0x00001b6a                xPortGetFreeHeapSize
+                0x00001b80                vPortFree
+                0x00001c66                pvPortMalloc
+                0x00001b7e                vPortInitialiseBlocks
+                0x00001b74                xPortGetMinimumEverFreeHeapSize
+ .text.hot      0x00001e62     0x16ec /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                0x00002416                vTaskPlaceOnUnorderedEventList
+                0x00003194                vTaskEndScheduler
+                0x000024f4                vTaskPlaceOnEventList
+                0x000031a0                xTaskGenericCreate
+                0x00001f32                uxTaskGetStackHighWaterMark
+                0x00002368                xTaskResumeFromISR
+                0x00001e6e                xTaskGetTickCount
+                0x00002120                xTaskRemoveFromEventList
+                0x00001eac                xTaskCheckForTimeOut
+                0x00001e62                vTaskSuspendAll
+                0x00001e84                xTaskGetTickCountFromISR
+                0x00001fac                vTaskPriorityDisinherit
+                0x00002010                vTaskPriorityInherit
+                0x0000290e                vTaskResume
+                0x000025c4                vTaskSwitchContext
+                0x0000299a                vTaskSuspend
+                0x00001e90                uxTaskGetNumberOfTasks
+                0x00002e54                vTaskDelayUntil
+                0x00001f70                xTaskGetCurrentTaskHandle
+                0x000020b0                xTaskRemoveFromUnorderedEventList
+                0x00002694                xTaskResumeAll
+                0x00003398                vTaskStartScheduler
+                0x00001f2a                vTaskMissedYield
+                0x000021b2                xTaskIncrementTick
+                0x00002b44                vTaskDelay
+                0x00001e96                vTaskSetTimeOutState
+                0x00001f7c                uxTaskResetEventItemValue
+ .text.hot      0x0000354e      0x12a /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x000035e4                xPortStartScheduler
+                0x00003676                vPortEndScheduler
+                0x0000354e                pxPortInitialiseStack
+ .text.vPortYieldFromTick
+                0x00003678       0xf8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x00003678                vPortYieldFromTick
+ .text.__vector_32
+                0x00003770        0x6 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x00003770                __vector_32
+ .text.vPortYield
+                0x00003776       0xc2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x00003776                vPortYield
+ .text.vListInitialise
+                0x00003838       0x20 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x00003838                vListInitialise
+ .text.vListInitialiseItem
+                0x00003858        0x8 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x00003858                vListInitialiseItem
+ .text.vListInsertEnd
+                0x00003860       0x3e /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x00003860                vListInsertEnd
+ .text.vListInsert
+                0x0000389e       0x64 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x0000389e                vListInsert
+ .text.uxListRemove
+                0x00003902       0x56 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x00003902                uxListRemove
+ .text.libgcc   0x00003958       0x44 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+                0x00003958                __udivmodsi4
+ .text.libgcc   0x0000399c       0x38 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+                0x0000399c                __prologue_saves__
+ .text.libgcc   0x000039d4       0x36 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+                0x000039d4                __epilogue_restores__
+ .text.libgcc   0x00003a0a        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .text.libgcc   0x00003a0a        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+                0x00003a0a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003a0a        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+                0x00003a0a                exit
+                0x00003a0a                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003a0a        0x4 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003a0e                _etext = .
+
+.data           0x00800200       0x24 load address 0x00003a0e
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ .data          0x00800200       0x18 ./main.o
+ .data          0x00800218        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+ .data          0x00800218        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .data          0x00800218        0x5 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .data          0x0080021d        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .data          0x0080021d        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+ .data          0x0080021d        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+ .data          0x0080021d        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strlen_P.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memset.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen_P.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ .data          0x0080021d        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa_invert.o)
+ *(.data*)
+ .data.xMinimumEverFreeBytesRemaining
+                0x0080021d        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .data.xFreeBytesRemaining
+                0x0080021f        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .data.xNextTaskUnblockTime
+                0x00800221        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800224                . = ALIGN (0x2)
+ *fill*         0x00800223        0x1 00
+                0x00800224                _edata = .
+                0x00800224                PROVIDE (__data_end, .)
+
+.bss            0x00800224     0x12a8
+                0x00800224                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x00800224        0x0 ./main.o
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+ .bss           0x00800224        0x0 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strlen_P.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memset.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen_P.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strnlen.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ .bss           0x00800224        0x0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa_invert.o)
+ *(.bss*)
+ .bss.xBlockAllocatedBit
+                0x00800224        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.pxEnd     0x00800226        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.ucHeap    0x00800228     0x1200 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.xStart    0x00801428        0x4 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.pxCurrentTCB
+                0x0080142c        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                0x0080142c                pxCurrentTCB
+ .bss.uxTopReadyPriority
+                0x0080142e        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xYieldPending
+                0x0080142f        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xTickCount
+                0x00801430        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xNumOfOverflows
+                0x00801432        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxSchedulerSuspended
+                0x00801433        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxPendedTicks
+                0x00801434        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxCurrentNumberOfTasks
+                0x00801435        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xSchedulerRunning
+                0x00801436        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxTaskNumber
+                0x00801437        0x1 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.pxReadyTasksLists
+                0x00801438       0x24 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xDelayedTaskList1
+                0x0080145c        0x9 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xDelayedTaskList2
+                0x00801465        0x9 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.pxDelayedTaskList
+                0x0080146e        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.pxOverflowDelayedTaskList
+                0x00801470        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xPendingReadyList
+                0x00801472        0x9 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xSuspendedTaskList
+                0x0080147b        0x9 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.portTickRateHz
+                0x00801484        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .bss.ticksRemainingInSec
+                0x00801486        0x2 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ *(COMMON)
+ COMMON         0x00801488       0x40 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(serial.o)
+                0x00801488                xSerialPort
+                0x008014a8                xSerial1Port
+ COMMON         0x008014c8        0x4 /Users/antoine/Documents/workspace/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+                0x008014c8                __system_time
+                0x008014cc                PROVIDE (__bss_end, .)
+                0x00003a0e                __data_load_start = LOADADDR (.data)
+                0x00003a32                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008014cc        0x0
+                0x008014cc                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008014cc                PROVIDE (__noinit_end, .)
+                0x008014cc                _end = .
+                0x008014cc                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_aranges
+                0x00000020       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_aranges
+                0x00000040       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_aranges
+                0x00000060       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+
+.debug_pubnames
+                0x00000000       0x7d
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_pubnames
+                0x00000020       0x22 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_pubnames
+                0x00000042       0x1f /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_pubnames
+                0x00000061       0x1c /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+
+.debug_info     0x00000000      0x850
+ *(.debug_info)
+ .debug_info    0x00000000      0x1d3 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_info    0x000001d3      0x1d3 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_info    0x000003a6      0x344 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_info    0x000006ea      0x166 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x440
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xeb /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_abbrev  0x000000eb       0xeb /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_abbrev  0x000001d6      0x191 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_abbrev  0x00000367       0xd9 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+
+.debug_line     0x00000000      0x7c0
+ *(.debug_line)
+ .debug_line    0x00000000      0x13b /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_line    0x0000013b      0x13d /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_line    0x00000278      0x478 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_line    0x000006f0       0xd0 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+
+.debug_frame    0x00000000       0x80
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_frame   0x00000020       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_frame   0x00000040       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_frame   0x00000060       0x20 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+
+.debug_str      0x00000000      0x1ce
+ *(.debug_str)
+ .debug_str     0x00000000      0x115 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+                                0x156 (size before relaxing)
+ .debug_str     0x00000115       0x2e /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+                                0x15a (size before relaxing)
+ .debug_str     0x00000143       0x69 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x000001ac       0x22 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+                                0x125 (size before relaxing)
+
+.debug_loc      0x00000000      0x58b
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x70 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf.o)
+ .debug_loc     0x00000070       0x70 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vsnprintf_p.o)
+ .debug_loc     0x000000e0      0x44b /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_loc     0x0000052b       0x60 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(EmptyProject.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x18
+ .debug_ranges  0x00000000       0x18 /opt/homebrew-cask/Caskroom/arduino/1.0.6/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)

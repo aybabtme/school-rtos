@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/de.innot.avreclipse.configuration.app.release.930548717/AVRTARGETMCU/delimiter=\:
+environment/project/de.innot.avreclipse.configuration.app.release.930548717/AVRTARGETMCU/operation=replace
+environment/project/de.innot.avreclipse.configuration.app.release.930548717/AVRTARGETMCU/value=atmega2560
+environment/project/de.innot.avreclipse.configuration.app.release.930548717/append=true
+environment/project/de.innot.avreclipse.configuration.app.release.930548717/appendContributed=true
